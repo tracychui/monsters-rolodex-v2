@@ -1,3 +1,17 @@
+2Dec2024 note: 
+1.  Error : The errorencountering, specifically Error: error:0308010C:digital envelope routines::unsupported, is related to the version of Node.js you are using. This issue typically arises when using Node.js version 17 or higher with certain packages that rely on OpenSSL.
+
+Set the Environment Variable
+Should set the NODE_OPTIONS environment variable to allow the use of legacy OpenSSL algorithms. Run the following command in your terminal before starting the development server:
+
+bash
+<code> export NODE_OPTIONS=--openssl-legacy-provider </code>
+
+2. Error : 'React' must be in scope when using JSX react/react-in-jsx-scope
+
+Should revise all .jsx file with import 
+import React from 'react';
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

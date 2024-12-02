@@ -9,8 +9,8 @@ bash
 
 2. Error : 'React' must be in scope when using JSX react/react-in-jsx-scope
 
-Should revise all .jsx file with import 
-import React from 'react';
+Should revise all .jsx file with importing 
+<code> import React from 'react'; </code>
 
 # Getting Started with Create React App
 
